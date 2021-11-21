@@ -1,20 +1,51 @@
+/* General Stylings */
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box
+}
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4 {
+    font-family: "Lato", sans-serif;
+}
+
+
+
 /***********************LichtBlick***************************************/
 
+header {
+    display: flex;
+    justify-content: center;
+    background-image: 
+    url ("https://upload.wikimedia.org/wikipedia/commons/0/0d/LichtBlick-Logo-2020.svg");
+}
 
+div {
+    padding: 16px;
+}
 
 
 
 
 /*********************Das neue Normal:*****************************************/
 
-
+.background-image1 {
+    background-image: url(https://www.pexels.com/de-de/foto/brown-mountains-2559941/);
+}
 
 
 
 
 /**********************Wollt ihr mit Strom heizen?*****************************/
 
-
+.background {
+    background-color: pink;
+}
 
 
 
@@ -31,7 +62,9 @@
 
 /***********************LichtBlick***************************************/
 
-
+.background2 {
+    background-color: rgb(134, 141, 122);
+}
 
 
 
@@ -40,3 +73,15 @@
 
 
 /***************************footer***********************************/
+
+footer {
+    background-color: black;
+    
+}
+a {
+    color: white;
+}
+
+blockquote {
+    color: gainsboro;
+}
