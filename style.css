@@ -8,6 +8,7 @@
 html {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+    
 }
 
 h1,h2,h3,h4 {
@@ -21,8 +22,6 @@ h1,h2,h3,h4 {
 header {
     display: flex;
     justify-content: center;
-    background-image: 
-    url ("https://upload.wikimedia.org/wikipedia/commons/0/0d/LichtBlick-Logo-2020.svg");
 }
 
 div {
@@ -35,7 +34,12 @@ div {
 /*********************Das neue Normal:*****************************************/
 
 .background-image1 {
-    background-image: url(https://www.pexels.com/de-de/foto/brown-mountains-2559941/);
+    background-image: url(https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?cs=srgb&dl=pexels-roberto-nickson-2559941.jpg&fm=jpg);
+    background-size: cover;
+    height: 44rem;
+    width: 100%;
+    text-align: center;
+    color: white;
 }
 
 
@@ -45,9 +49,15 @@ div {
 
 .background {
     background-color: pink;
+    height: 26rem;
+    text-align: center;
+    align-items: center;
+    
+
 }
-
-
+:nth-child(div2) {
+    border: solid black;
+}
 
 
 
@@ -64,8 +74,8 @@ div {
 
 .background2 {
     background-color: rgb(134, 141, 122);
+    height: 26rem;
 }
-
 
 
 
@@ -76,7 +86,7 @@ div {
 
 footer {
     background-color: black;
-    
+    height: 10rem;
 }
 a {
     color: white;
@@ -84,4 +94,12 @@ a {
 
 blockquote {
     color: gainsboro;
+    text-align: center;
+    padding-top: 30px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 75px;
+    padding-top: 50px;
 }
