@@ -63,8 +63,21 @@ div {
 
 /***********************Gute Ideen für ein besseres Klima**********************/
 
+.e-mobil {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 350px;
+}
+.image1 {
+    width: 100%;
+    position: relative;
+    
+    margin-top: 5px;
+    margin-left: -5px;
+    border-radius: 5px;
 
 
+}
 
 
 
