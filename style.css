@@ -11,6 +11,11 @@ html {
     
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h1,h2,h3,h4 {
     font-family: "Lato", sans-serif;
 }
@@ -18,14 +23,26 @@ h1,h2,h3,h4 {
 
 
 /***********************LichtBlick***************************************/
-
+.logo {
+    height: 10%;
+    width: 20%;
+    padding:0;
+    margin:0;
+}
 header {
-    display: flex;
-    justify-content: center;
+    height: 10%;
+    position: relative;
+    padding: 0;
+    margin: 5px;
+    
 }
 
-div {
-    padding: 16px;
+.menu2 {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -40,6 +57,9 @@ div {
     width: 100%;
     text-align: center;
     color: white;
+    display:flex
+    justify - contents:flex - start
+
 }
 
 
@@ -52,9 +72,17 @@ div {
     height: 26rem;
     text-align: center;
     align-items: center;
-    
-
+    margin-top: 2rem;
+    padding: 8rem;    
 }
+.button1 {
+    border: solid black;
+    width: 200px;
+    margin-left:325px;
+    border-radius: 5px;
+    
+}
+
 :nth-child(div2) {
     border: solid black;
 }
@@ -67,6 +95,7 @@ div {
     border: 2px solid black;
     border-radius: 5px;
     width: 350px;
+    
 }
 .image1 {
     width: 100%;
@@ -75,8 +104,12 @@ div {
     margin-top: 5px;
     margin-left: -5px;
     border-radius: 5px;
+}
 
-
+.klima {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 350px;
 }
 
 
