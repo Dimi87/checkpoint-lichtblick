@@ -23,26 +23,18 @@ h1,h2,h3,h4 {
 
 
 /***********************LichtBlick***************************************/
+
 .logo {
-    height: 10%;
-    width: 20%;
-    padding:0;
-    margin:0;
+    margin: 20px;
 }
-header {
-    height: 10%;
-    position: relative;
-    padding: 0;
-    margin: 5px;
-    
-}
+
 
 .menu2 {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding: 5px;
+    margin: 10px;
 }
 
 
@@ -50,67 +42,31 @@ header {
 
 /*********************Das neue Normal:*****************************************/
 
-.background-image1 {
-    background-image: url(https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?cs=srgb&dl=pexels-roberto-nickson-2559941.jpg&fm=jpg);
-    background-size: cover;
-    height: 44rem;
-    width: 100%;
-    text-align: center;
-    color: white;
-    display:flex
-    justify - contents:flex - start
-
+.img1 {
+    width: 100vw;
+    
 }
 
+.background-image1 {
+    background-color: whitesmoke;
+    padding-bottom: 20rem;
+    margin-bottom: 10rem;
+    
+}
 
 
 
 /**********************Wollt ihr mit Strom heizen?*****************************/
 
-.background {
+.background-image2 {
     background-color: pink;
-    height: 26rem;
-    text-align: center;
-    align-items: center;
-    margin-top: 2rem;
-    padding: 8rem;    
-}
-.button1 {
-    border: solid black;
-    width: 200px;
-    margin-left:325px;
-    border-radius: 5px;
-    
-}
+    padding-bottom: 20rem;
 
-:nth-child(div2) {
-    border: solid black;
 }
-
 
 
 /***********************Gute Ideen für ein besseres Klima**********************/
 
-.e-mobil {
-    border: 2px solid black;
-    border-radius: 5px;
-    width: 350px;
-    
-}
-.image1 {
-    width: 100%;
-    position: relative;
-    
-    margin-top: 5px;
-    margin-left: -5px;
-    border-radius: 5px;
-}
-
-.klima {
-    border: 2px solid black;
-    border-radius: 5px;
-    width: 350px;
-}
 
 
 
