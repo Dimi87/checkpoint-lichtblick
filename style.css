@@ -53,7 +53,7 @@ h1,h2 {
 
 .background-image1 {
     background-color: whitesmoke;
-    height: 36rem;
+    _height: 36rem;
     margin-bottom: 9rem;
     
 }
@@ -64,7 +64,7 @@ h1,h2 {
 
 .div1 {
     margin-right: 30px;
-    padding-bottom: 300px;
+    padding-bottom: 100px;
 }
 
 
@@ -109,7 +109,7 @@ h1,h2 {
     margin-bottom: 2rem;
 }
 
-.e-mobil h4, .e-mobil p, .e-mobil a {
+.e-mobil h4, .e-mobil p {
     margin: .5rem 1rem;
     text-align: left;
 }
@@ -133,7 +133,7 @@ h1,h2 {
     margin-bottom: 2rem;
 }
 
-.klima h4, .klima p, .klima a {
+.klima h4, .klima p {
     margin: .5rem 1rem;
     text-align: left;
 }
@@ -171,7 +171,10 @@ h1,h2 {
 
 footer {
     background-color: black;
-    height: 27rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    margin-top: 5rem;
+    
 }
 a {
     color: black;
@@ -179,18 +182,24 @@ a {
 
 footer a, footer p {
     color: white;
+    margin-bottom: 2rem;
+
 }
 
 blockquote {
     color: gainsboro;
     text-align: center;
-    padding-top: 30px;
+    _padding-top: 10px;
 }
 
 nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     margin-top: 75px;
-    padding-top: 50px;
+    padding: 1rem 0; 
+    
 }
 
 /***********************Dekstop****************************************/
@@ -232,49 +241,45 @@ nav {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .div3 {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 2rem;
+    }
 
     footer {
-        background-color: black;
-        height: 10rem;
+         height: 200px;
+
+
     }
-    a {
-        color: black;
-    }
-    
-    footer a, footer p {
-        color: white;
-    }
-    
-    blockquote {
-        color: gainsboro;
-        text-align: center;
-        padding-top: 30px;
-    }
-    
+
     nav {
         text-align: center;
-        margin-top: 75px;
-        padding-top: 50px;
-    }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
 }
 
