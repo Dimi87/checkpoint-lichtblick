@@ -243,18 +243,59 @@ nav {
 
     .div3 {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         margin-right: 2rem;
     }
 
-    footer {
-         height: 200px;
 
 
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
+    .menu2 {
+        _padding: 23px;
+        align-content: center;
+        margin-right: 50px;
+        
+        
+    }
+
+    li {
+        padding-left: 30px;
+        _width: 200px;
+    
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     nav {
-        text-align: center;
+         flex-direction: row;
+         gap: 30px;
+    }
+
+    footer {
+        padding-top: 1px;
+        
+    }
+
+  
 
  
 
