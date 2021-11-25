@@ -10,6 +10,8 @@ html {
     font-size: 16px;
 }
 
+
+
 p,h1,h2,div {
     text-align:center;
 }
@@ -51,12 +53,18 @@ h1,h2 {
 
 .background-image1 {
     background-color: whitesmoke;
-    padding-bottom: 20rem;
+    _padding-bottom: 8rem;
     margin-bottom: 10rem;
     
 }
-.text1 {
-    
+.div1 h1, .div1 p {
+    text-align: left;
+    margin-left: 40px ;
+}
+
+.div1 {
+    margin-right: 30px;
+    padding-bottom: 300px;
 }
 
 
@@ -65,8 +73,19 @@ h1,h2 {
 
 .background-image2 {
     background-color: pink;
-    padding-bottom: 20rem;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
 
+.button1 a {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+.button1 {
+    margin-top: 3rem;
 }
 
 
@@ -120,6 +139,10 @@ footer {
     height: 10rem;
 }
 a {
+    color: black;
+}
+
+footer a, footer p {
     color: white;
 }
 
@@ -137,6 +160,7 @@ nav {
 
 /***********************Dekstop****************************************/
 
+
 @media screen and (min-width: 768px) {
     body {
         font-size: 20px;
@@ -149,11 +173,22 @@ nav {
         position: absolute;
         top:0;
         color: white;
+        display:flex;
+        align-items: center;
+        _flex-direction: row;
+        height: 100%;
     
+    }
+
+    .div1 {
+        margin-left: 40px;
+        max-width: 500px;
     }
 
   .text1 h1, .text1  p {
       text-align: left;
+
+
     }
     .background-image1 {
         background-color: white;
