@@ -7,7 +7,7 @@
 }
 html {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 
@@ -53,8 +53,8 @@ h1,h2 {
 
 .background-image1 {
     background-color: whitesmoke;
-    _padding-bottom: 8rem;
-    margin-bottom: 10rem;
+    height: 36rem;
+    margin-bottom: 9rem;
     
 }
 .div1 h1, .div1 p {
@@ -73,8 +73,9 @@ h1,h2 {
 
 .background-image2 {
     background-color: pink;
-    padding-bottom: 10rem;
-    padding-top: 10rem;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    
 }
 
 .button1 a {
@@ -91,29 +92,50 @@ h1,h2 {
 
 /***********************Gute Ideen für ein besseres Klima**********************/
 
-.image1 {
-    _width: 90vw;
-    _margin-left: 1rem;
-    _border-radius: 5px;
-    
+.image1 {    
    width: 100%;
-   position: relative;
+   _position: relative;
    margin-top: 5px;
-   margin-left: -5px;
-   border-radius: 5px 
+   margin-left: -9px;
+   border-radius: 10px 10px 0 0;
 }
 
-.e-mobil {
-
-   
-    _border: solid black;
-    _border-radius: 5px;
-    _width: 30rem;
+.e-mobil {   
+    border: solid grey;
+    border-radius: 10px;
+    width: 30rem;
+    padding-bottom: 1.3rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
 }
+
+.e-mobil h4, .e-mobil p, .e-mobil a {
+    margin: .5rem 1rem;
+    text-align: left;
+}
+
+/******************/
 
 .image {
     width: 100%;
+   _position: relative;
+   margin-top: 5px;
+   margin-left: -9px;
+   border-radius: 10px 10px 0 0;
+}
 
+.klima {
+    border: solid grey;
+    border-radius: 10px;
+    width: 30rem;
+    padding-bottom: 1.3rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.klima h4, .klima p, .klima a {
+    margin: .5rem 1rem;
+    text-align: left;
 }
 
 
@@ -124,7 +146,20 @@ h1,h2 {
 
 .background2 {
     background-color: rgb(134, 141, 122);
-    height: 26rem;
+    _height: 26rem;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+}
+
+.button2 a {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+.button2 {
+    margin-top: 3rem;
 }
 
 
@@ -136,7 +171,7 @@ h1,h2 {
 
 footer {
     background-color: black;
-    height: 10rem;
+    height: 27rem;
 }
 a {
     color: black;
@@ -194,6 +229,52 @@ nav {
         background-color: white;
         padding-bottom: 0;
         margin-bottom: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer {
+        background-color: black;
+        height: 10rem;
+    }
+    a {
+        color: black;
+    }
+    
+    footer a, footer p {
+        color: white;
+    }
+    
+    blockquote {
+        color: gainsboro;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    nav {
+        text-align: center;
+        margin-top: 75px;
+        padding-top: 50px;
     }
 }
 
