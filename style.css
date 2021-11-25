@@ -8,15 +8,17 @@
 html {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    
 }
 
+p,h1,h2,div {
+    text-align:center;
+}
 body {
     margin: 0;
     padding: 0;
 }
 
-h1,h2,h3,h4 {
+h1,h2 {
     font-family: "Lato", sans-serif;
 }
 
@@ -53,6 +55,9 @@ h1,h2,h3,h4 {
     margin-bottom: 10rem;
     
 }
+.text1 {
+    
+}
 
 
 
@@ -67,6 +72,30 @@ h1,h2,h3,h4 {
 
 /***********************Gute Ideen für ein besseres Klima**********************/
 
+.image1 {
+    _width: 90vw;
+    _margin-left: 1rem;
+    _border-radius: 5px;
+    
+   width: 100%;
+   position: relative;
+   margin-top: 5px;
+   margin-left: -5px;
+   border-radius: 5px 
+}
+
+.e-mobil {
+
+   
+    _border: solid black;
+    _border-radius: 5px;
+    _width: 30rem;
+}
+
+.image {
+    width: 100%;
+
+}
 
 
 
@@ -105,3 +134,31 @@ nav {
     margin-top: 75px;
     padding-top: 50px;
 }
+
+/***********************Dekstop****************************************/
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+
+    .background-image1 {
+        position: relative;
+    }
+    .text1 {
+        position: absolute;
+        top:0;
+        color: white;
+    
+    }
+
+  .text1 h1, .text1  p {
+      text-align: left;
+    }
+    .background-image1 {
+        background-color: white;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
